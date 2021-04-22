@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('https://cdn.pixabay.com/photo/2016/08/22/12/54/city-1611867_1280.jpg') no-repeat top center ;
+  background: url('https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_1280.jpg') no-repeat top center ;
   background-position: 50% 50%;
   background-size: cover;
   overflow: hidden;
@@ -64,15 +64,14 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  margin-top: 60px;
+  width: 120px;
+  height: 120px;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(90deg);
+  transform: scale(1.2) rotate(10deg);
+  cursor: pointer;
 }
 .tag {
   background-color: #efefef;
@@ -82,8 +81,8 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
-  background-color: #222;
+.byline {
+  background-color: #0499ff;
   color: white;
 }
 .card {
