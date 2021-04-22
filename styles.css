@@ -54,8 +54,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('https://cdn.pixabay.com/photo/2017/04/26/10/30/melbourne-2262233_1280.jpg') no-repeat top center ;
-  background-position: 90% 50%;
+  background: url('https://cdn.pixabay.com/photo/2016/08/22/12/54/city-1611867_1280.jpg') no-repeat top center ;
+  background-position: 50% 50%;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -72,7 +72,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(15deg);
+  transform: scale(1.2) rotate(90deg);
 }
 .tag {
   background-color: #efefef;
@@ -107,7 +107,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #0399ff;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -115,6 +115,26 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.image-box {
+  margin: 5px;
+  padding: 5px 5px 5px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-radius: 6px;
+}
+.image-box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 footer {
@@ -149,14 +169,17 @@ a.social {
   opacity: .5;
   transition: all .25s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.browser-outline {
+  background-image: url(images/browser-outline.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
 a.github {
   background-image: url(images/github.svg);
+}
+a.github-outline {
+  background-image: url(images/github-outline.svg);
 }
 a.social:hover {
   opacity: 1;
